@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Clone - Show + Tell</title>
   </head>
-  <body>
+  <body class="titillium-web-light">
     <section id="header">
-      <h1 class="logo">Show + Tell.</h1>
+      <h1 class="logo josefin-sans">Show+Tell.</h1>
       <ul class="nav">
         <li><a href="#">Work</a></li>
         <li><a href="#">Studio</a></li>
@@ -19,7 +26,15 @@
         <li>
           <div class="proj">
             <button id="start-project">Start a project</button>
-            <div class="arrow">&#8594;</div>
+            <div class="arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  fill="#ffffff"
+                  d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                />
+              </svg>
+            </div>
           </div>
         </li>
       </ul>
@@ -34,10 +49,11 @@
         <button id="scroll-down">Scroll + explore</button>
       </div>
       <div class="video">
-        <video
-          src="https://player.vimeo.com/video/883984786?playsinline=0&autoplay=1&controls=0&app_id=122963"
-          autoplay
-        ></video>
+        <!-- <iframe
+          src="https://player.vimeo.com/video/883984786?autoplay=1&loop=1&muted=1"
+          frameborder="0"
+          allowfullscreen
+        ></iframe> -->
       </div>
     </section>
     <section id="about">
@@ -50,12 +66,21 @@
       <h1>WORK</h1>
       <div class="proj">
         <button>View all</button>
-        <div class="arrow">&#8594;</div>
+        <div class="arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              fill="#ffffff"
+              d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+            />
+          </svg>
+        </div>
       </div>
     </section>
     <section id="scroller">
       <div class="cards">
         <div class="visual visual-1">
+          <div class="img"></div>
           <div class="tags">
             <button>Optinet</button>
             <button>Branding</button>
@@ -70,11 +95,11 @@
       </div>
       <div class="cards">
         <div class="visual visual-2">
+          <div class="img"></div>
           <div class="tags">
-            <button>Optinet</button>
+            <button>Dentex</button>
             <button>Branding</button>
             <button>Web & digital</button>
-            <button>Energy & Utilities</button>
           </div>
         </div>
         <div class="caption">
@@ -84,11 +109,11 @@
       </div>
       <div class="cards">
         <div class="visual visual-3">
+          <div class="img"></div>
           <div class="tags">
-            <button>Optinet</button>
+            <button>Equitox</button>
             <button>Branding</button>
             <button>Web & digital</button>
-            <button>Energy & Utilities</button>
           </div>
         </div>
         <div class="caption">
@@ -98,11 +123,11 @@
       </div>
       <div class="cards">
         <div class="visual visual-4">
+            <div class="img"></div>
           <div class="tags">
-            <button>Optinet</button>
+            <button>Atlas Venture</button>
             <button>Branding</button>
             <button>Web & digital</button>
-            <button>Energy & Utilities</button>
           </div>
         </div>
         <div class="caption">
