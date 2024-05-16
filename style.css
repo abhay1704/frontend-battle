@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+  align-items: center;
+}
+
+#header h1 {
+  color: black;
+  display: inline;
+}
+
+#header a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  display: inline-flex;
+  width: fit-content;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.arrow {
+  content: "\2192";
+  padding: 9px 11px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  transform: rotate(-45deg);
+}
+
+.proj button {
+  padding: 7px 15px;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+}
+
+
+#home{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
