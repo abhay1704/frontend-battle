@@ -1,6 +1,8 @@
 :root {
   --cursor-bkd-big: transparent;
   --cursor-bkd-small: black;
+  --cursor-big-width: 40px;
+  --cursor-content: "";
 }
 
 * {
@@ -303,8 +305,10 @@ body::after {
   content: "";
   position: fixed;
   top: 0;
+  text-align: center;
   left: 0;
   pointer-events: none;
+  transition: width 0.5s, height 0.5s, background-color 0.5s, content 0.5s;
 }
 
 body::before {
@@ -320,8 +324,8 @@ body::before {
 body::after {
   width: 5px;
   height: 5px;
-  /* background: black; */
   border-radius: 50%;
+  z-index: 12;
   transform: translate(-50%, -50%);
 }
 
@@ -343,6 +347,10 @@ body::after {
 body:hover::before {
   background-color: var(--cursor-bkd-big);
   border-color: var(--cursor-bkd-small);
+  content: var(--cursor-content);
+  height: var(--cursor-big-width);
+  width: var(--cursor-big-width);
+  color: white;
 }
 
 body:hover::after {
